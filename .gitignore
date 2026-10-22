@@ -218,3 +218,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Виртуальное окружение
+venv/
+.env
+
+# Файлы статистики (они меняются постоянно, не нужны в репо)
+ticket_stats.json
+
+# Токен и конфиги с секретами
+config.json
+token.txt
+
+# Системные файлы
+__pycache__/
+*.pyc
+.DS_Store
